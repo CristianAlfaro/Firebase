@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Fire base Real Time</title>
+    <style>
+        body {height: 100%;
+            padding: 3em 10em;
+        }
+        div {   background-color: rgba(184, 184, 184, 0.534);
+                height: 100%;
+                padding: 0 4em 7em}
+        h1{ text-align: center;
+            font-size: 1.8em;
+            padding-top: 2em;
+            padding-bottom: 2em;
+        }
+        p {text-align: justify;
+        }
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <div>
+        <h1>Firebase Realtime Database</h1>
+
+         <p>Firebase Realtime Database es una base de datos NoSQL alojada en la nube. 
+            se sincronizan en tiempo real con cada cliente conectado.
+            todos los clientes comparten una instancia de Realtime Database y reciben actualizaciones automáticamente con los datos más recientes.
+        </p>
+        <hr>
+        <h4>Funciones</h4>
+        <ul>
+            <li>Tiempo Real: cada vez que cambian los datos, los dispositivos conectados reciben esa actualización en milisegundos</li>
+            <br>
+            <li>Sin Conexiones: Firebase continúa respondiendo, aún sin conexión, guardando los datos en la memoria interna, cuando se restablece la conexión, el dispositivo recibe los cambios y los sincroniza con el estado actual del servidor. </li>
+            <br>
+            <li>Acceso desde dispositivos cliente: Firebase Realtime Database puede acceder directamente a la información sin la necesidad de la conexión a una API, ya que Android Studio lo implementa de forma interna con sus propios métodos.</li>
+            <br>
+            <li>Escalamiento en varias bases de datos: F.R.D. puede dividir la información en diferentes instancia dentro de bases de datos en el mismo proyecto, un ejemplo de estos sería poder autenticar a usuarios en diferentes instancias.</li>
+        </ul>
+<br><br>
+<hr>
+        <p>F.R.D. proporciona un lenguaje flexible de reglas basadas en expresiones, 
+            llamado reglas de seguridad de Firebase Realtime Database, para definir 
+            cómo se deberían estructurar los datos y en qué momento se pueden leer o escribir.
+        </p>
+        <p>La API de R.D. está diseñada para permitir solo operaciones que se puedan ejecutar 
+            rápidamente. Eso permite crear una excelente experiencia de tiempo real que puede 
+            servir a millones de usuarios sin afectar la capacidad de respuesta.
+        </p>
+        <br>
+        <br>
+        <br>
+        <p>Documentacion</p>
+        <a href="https://firebase.google.com/docs/database/?hl=es">https://firebase.google.com/docs/database/?hl=es</a>
+    </div>
+    
+</body>
+</html>
